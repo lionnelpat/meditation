@@ -23,8 +23,3 @@ jobs:
           python3 -m pip install mkdocs-material   # install material theme
       - name: Build site
         run: mkdocs build
-      - name: Deploy
-        uses: lionnelpat/meditation@v1
-        with:
-          github_token: $
-          publish_dir: ./site
