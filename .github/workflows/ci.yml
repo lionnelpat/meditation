@@ -23,3 +23,5 @@ jobs:
           python3 -m pip install mkdocs-material   # install material theme
       - name: Build site
         run: mkdocs build
+      - name: deploy site
+        run: mkdocs gh-deploy --force
