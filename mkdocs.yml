@@ -1,0 +1,40 @@
+site_name: LA MEDITATION BIBLIQUE
+theme:
+  name: material
+docs_dir: docs
+nav:
+  - Introduction: 'index.md'
+  - 'La Bible':
+    - 'Ses caractéristiques': 'bible/caracteristics.md'
+    - "Comment l'approcher?": 'bible/how-to-approch-bible.md'
+    - "Les 5 niveaux d'interaction.":  "bible/five-interaction-levels.md"
+  - 'Le contexte':
+    - "Qu'est-ce que s'est?": 'context/what-is-context.md'
+    - "Pourquoi est-ce important?": 'context/why-is-there-important.md'
+    - "Comment l'identifier?": 
+      - "Ses subdivisions": "context/subdivision.md"
+      - "Ses styles littéraires": "context/styles.md"
+      - "Ses contextes historiques": "context/history-context.md"
+      - "Ses contextes politiques": "context/politic-context.md"
+      - "Ses contextes religieux / culturels": "context/cultural-context.md"
+  - "La Lecture de la Bible":
+    - "Pourquoi lire la bible?": "reading/why-read-bible.md"
+    - "Comment lire la bible? quelques astuces": "reading/how-to-read-bible.md"
+    - "Erreurs à éviter!": "reading/some-errors-to-avoid.md"
+  - "La méditation de la Bible":  
+    - "Qu'est-ce que méditer?": "meditation/what-is-meditation.md"
+    - "Pourquoi devons-nous méditer": "meditation/why-should-we-meditate.md"
+    - "Comment méditer la bible?":
+      - "1- La méthodologie":
+        - "a- Déterminer le contexte": "meditation/howTo/method/context.md"
+        - "b- Observer le texte": "meditation/howTo/method/observation.md"
+        - "c- Déterminer le sens du texte": "meditation/howTo/method/interpretation.md"
+        - "d- Trouver des applications": "meditation/howTo/method/application.md"
+      - "2- Les outils":
+        - "a- Une Bible d'étude": "meditation/howTo/tools/study-bible.md"
+        - "b- Une concordance biblique": "meditation/howTo/tools/bible-concordance.md"
+        - "c- Un dictionnaire ou une encyclopédie biblique": "meditation/howTo/tools/bible-dictionary.md"
+        - "d- Un panorama biblique": "meditation/howTo/tools/bible-panorama.md"
+        - "e- Un commentaire biblique": "meditation/howTo/tools/bible-comments.md"
+    - "Quelques pièges à éviter": "meditation/some-errors-to-avoid.md"
+  - "F.A.Q": "faq.md"
